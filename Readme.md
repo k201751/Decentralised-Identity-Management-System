@@ -12,7 +12,7 @@ Linux:\
 su (enter root password)\
 \
 cd /tmp\
-wget https://www.multichain.com/download/multichain-2.3.3.tar.gz\
+wget https://www.multichain.com/download/multichain-2.3.3.tar.gz \
 tar -xvzf multichain-2.3.3.tar.gz\
 cd multichain-2.3.3\
 mv multichaind multichain-cli multichain-util /usr/local/bin (to make easily accessible on the command line)\
@@ -20,11 +20,11 @@ mv multichaind multichain-cli multichain-util /usr/local/bin (to make easily acc
 exit (to return to your regular user)
 
 ### 2: Run multichain block chain
-2.1:  Create ID chain 
+2.1:  Create ID chain\
 'multichain-util create IDChain'
-2.2: Run ID chain
+2.2: Run ID chain\
 'multichain IDChain -daemon'
-2.3 create stream
+2.3 create stream\
 '''shell
 multichain-cli  IDChain create stream identity_stream true
 multichain-cli IDChain subscribe identity_stream
