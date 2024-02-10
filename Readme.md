@@ -28,6 +28,7 @@ exit (to return to your regular user)
 '''shell
 multichain-cli  IDChain create stream identity_stream true
 multichain-cli IDChain subscribe identity_stream
+'''
 2.4: Replace IP Adresses in your client script with appropriate Server IP Address
 
 ### 3. Working
