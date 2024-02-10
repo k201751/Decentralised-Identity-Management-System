@@ -21,9 +21,9 @@ exit (to return to your regular user)
 
 ### 2: Run multichain block chain
 2.1:  Create ID chain\
-'multichain-util create IDChain'
+    multichain-util create IDChain
 2.2: Run ID chain\
-'multichain IDChain -daemon'
+    multichain IDChain -daemon
 2.3 create stream\
 '''shell
 multichain-cli  IDChain create stream identity_stream true
