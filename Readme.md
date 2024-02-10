@@ -1,4 +1,5 @@
-
+## Background
+This was implemented as a semester project of my course Blockchain and Cryptocurrency was just intended to create to pass the project NOT FOR PROFESSIONAL OR FINAL PROJECT USE 
 
 ## Pre-requisites
 
