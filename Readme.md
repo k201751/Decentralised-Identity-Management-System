@@ -1,4 +1,8 @@
+## Background
+This was implemented as a semester project of my course Blockchain and Cryptocurrency was just intended to create to pass the project NOT FOR PROFESSIONAL OR FINAL PROJECT USE.
 
+## Description:
+This is an Identity management system that takes information of a new person as well as take picture of the person upload it on blockchain after securing it with multisignature. To retrieve an information of a person, a piece of information has to be given along with the picture of that person and all the information about that person will be retrieve. There are four scripts: two clients and two servers.
 
 ## Pre-requisites
 
