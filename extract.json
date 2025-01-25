@@ -1,0 +1,241 @@
+import json
+
+# Assume the 'result' variable contains the provided JSON text
+result = "[
+    {
+        "publishers" : [
+            "1DebwbMxRYLsR6GuignXGQogwX15a574aWR17b"
+        ],
+        "keys" : [
+            "key1"
+        ],
+        "offchain" : false,
+        "available" : true,
+        "data" : {
+            "json" : {
+                "name" : "Ali Naeem",
+                "age" : "22",
+                "email" : "nali2000a@gmail.com"
+            }
+        },
+        "confirmations" : 100,
+        "blocktime" : 1701539695,
+        "txid" : "e9cc42c121bebaaffd972573c4f5ab2561baa8a7d67cb66a658dffa9ceddf120"
+    },
+    {
+        "publishers" : [
+            "1DebwbMxRYLsR6GuignXGQogwX15a574aWR17b"
+        ],
+        "keys" : [
+            "key1"
+        ],
+        "offchain" : false,
+        "available" : true,
+        "data" : {
+            "json" : {
+                "name" : "MaazShah",
+                "age" : "21",
+                "email" : "maaz122@gmail.com"
+            }
+        },
+        "confirmations" : 89,
+        "blocktime" : 1701540346,
+        "txid" : "98eb6359fd5fc39fd23d7c6d42da5ccc3d803ddb1b684b422ef522c1a547cef4"
+    },
+    {
+        "publishers" : [
+            "1DebwbMxRYLsR6GuignXGQogwX15a574aWR17b"
+        ],
+        "keys" : [
+            "key1"
+        ],
+        "offchain" : false,
+        "available" : true,
+        "data" : {
+            "json" : {
+                "name" : "Faraz",
+                "age" : "23",
+                "email" : "pagal@gmail.com"
+            }
+        },
+        "confirmations" : 78,
+        "blocktime" : 1701540445,
+        "txid" : "faad1f32c72541ccb7567724ee4c8936f0c637e6d7d147dd7e46032638d83399"
+    },
+    {
+        "publishers" : [
+            "1DebwbMxRYLsR6GuignXGQogwX15a574aWR17b"
+        ],
+        "keys" : [
+            "key1"
+        ],
+        "offchain" : false,
+        "available" : true,
+        "data" : {
+            "json" : {
+                "name" : "Moazzam Shah",
+                "name" : "Azam Shah",
+                "DOB" : "17-08-99",
+                "CNIC" : "42201-4828550-8"
+            }
+        },
+        "confirmations" : 67,
+        "blocktime" : 1701545183,
+        "txid" : "693267ed228a1e6a27b8b23d1da98b6c0d17047ea4159d66c6aeb5d5004a2553"
+    },
+    {
+        "publishers" : [
+            "1DebwbMxRYLsR6GuignXGQogwX15a574aWR17b"
+        ],
+        "keys" : [
+            "key1"
+        ],
+        "offchain" : false,
+        "available" : true,
+        "data" : {
+            "json" : {
+                "name" : "Babar Azam",
+                "father's name" : "Azam Bhai",
+                "DOB" : "18-09-66",
+                "CNIC" : "42201-4828550-9"
+            }
+        },
+        "confirmations" : 56,
+        "blocktime" : 1701546480,
+        "txid" : "8f57a9ddf7c64aae116131af47bffddfb1d25fbaa26bbd4867b5b9698ca76363"
+    },
+    {
+        "publishers" : [
+            "1DebwbMxRYLsR6GuignXGQogwX15a574aWR17b"
+        ],
+        "keys" : [
+            "key1"
+        ],
+        "offchain" : false,
+        "available" : true,
+        "data" : {
+            "json" : {
+                "name" : "Hasan Iqbal",
+                "father's name" : "Mohammad Iqbal",
+                "DOB" : "09-09-89",
+                "CNIC" : "43301-4828550-8",
+                "person's picture hash" : "088111e42b1311d1807151e04f4a884198a118e696545e5d04f2f4d0419b4d93",
+                "picture location" : "D:ev projectsDmanageIP.jpeg"
+            }
+        },
+        "confirmations" : 45,
+        "blocktime" : 1701595498,
+        "txid" : "f948064d753ba02fd77e907293eb86cc31d6ad0b00291a065f4ee6ca65e2d1e6"
+    },
+    {
+        "publishers" : [
+            "1DebwbMxRYLsR6GuignXGQogwX15a574aWR17b"
+        ],
+        "keys" : [
+            "key1"
+        ],
+        "offchain" : false,
+        "available" : true,
+        "data" : {
+            "json" : {
+                "name" : "Hasan Iqbal",
+                "father's name" : "Mohammad Iqbal",
+                "DOB" : "09-09-89",
+                "CNIC" : "43301-4828550-8",
+                "person's picture hash" : "088111e42b1311d1807151e04f4a884198a118e696545e5d04f2f4d0419b4d93",
+                "picture location" : "D:\\Dev projects\\IDmanage\\OIP.jpeg"
+            }
+        },
+        "confirmations" : 34,
+        "blocktime" : 1701595851,
+        "txid" : "8f51351444ae1086987084749f74afa83fea08e6f93a1bf1ca144f066e14a95d"
+    },
+    {
+        "publishers" : [
+            "1DebwbMxRYLsR6GuignXGQogwX15a574aWR17b"
+        ],
+        "keys" : [
+            "key1"
+        ],
+        "offchain" : false,
+        "available" : true,
+        "data" : {
+            "json" : {
+                "name" : "Hasan Iqbal",
+                "father's name" : "Mohammad Iqbal",
+                "DOB" : "09-09-89",
+                "CNIC" : "43301-4828550-8",
+                "person's picture hash" : "088111e42b1311d1807151e04f4a884198a118e696545e5d04f2f4d0419b4d93",
+                "picture location" : "D:\\Dev projects\\IDmanage\\OIP.jpeg"
+            }
+        },
+        "confirmations" : 23,
+        "blocktime" : 1701602513,
+        "txid" : "89372913fb0848b17a44a8a70faabd463bb1a75b487a5191e848a92259c92b7c"
+    },
+    {
+        "publishers" : [
+            "1DebwbMxRYLsR6GuignXGQogwX15a574aWR17b"
+        ],
+        "keys" : [
+            "key1"
+        ],
+        "offchain" : false,
+        "available" : true,
+        "data" : {
+            "json" : {
+                "name" : "Hasan Iqbal",
+                "father's name" : "Mohammad Iqbal",
+                "DOB" : "09-09-89",
+                "CNIC" : "43301-4828550-8",
+                "person's picture hash" : "088111e42b1311d1807151e04f4a884198a118e696545e5d04f2f4d0419b4d93",
+                "picture location" : "D:\\Dev projects\\IDmanage\\OIP.jpeg"
+            }
+        },
+        "confirmations" : 12,
+        "blocktime" : 1701602999,
+        "txid" : "536a390a05867592dc9aaa2ebee5b232f66ea7bb9a90a6e489f9a75e134e8d34"
+    },
+    {
+        "publishers" : [
+            "1DebwbMxRYLsR6GuignXGQogwX15a574aWR17b"
+        ],
+        "keys" : [
+            "key1"
+        ],
+        "offchain" : false,
+        "available" : true,
+        "data" : {
+            "json" : {
+                "name" : "Asad Iqbal",
+                "father's name" : "Mohammad Iqbal",
+                "DOB" : "09-09-89",
+                "CNIC" : "43301-4828550-9",
+                "person's picture hash" : "088111e42b1311d1807151e04f4a884198a118e696545e5d04f2f4d0419b4d93",
+                "picture location" : "D:\\Dev projects\\IDmanage\\OIP.jpeg"
+            }
+        },
+        "confirmations" : 1,
+        "blocktime" : 1701603299,
+        "txid" : "439b84fc680e8d1dc94397da5d30c15571404295cf687867187f85a12290b444"
+    }
+]"
+
+# Extract information for each entry in the 'result' variable
+for entry in result:
+    data_json = entry.get("data", {}).get("json", {})
+    
+    name = data_json.get("name", "")
+    father_name = data_json.get("father's name", "")
+    dob = data_json.get("DOB", "")
+    cnic = data_json.get("CNIC", "")
+    picture_hash = data_json.get("person's picture hash", "")
+    picture_location = data_json.get("picture location", "")
+
+    print(f"Name: {name}")
+    print(f"Father's Name: {father_name}")
+    print(f"Date of Birth: {dob}")
+    print(f"CNIC: {cnic}")
+    print(f"Picture Hash: {picture_hash}")
+    print(f"Picture Location: {picture_location}")
+    print("-----")
